@@ -1,0 +1,5 @@
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+
+/darwinbuild.xcconfig
