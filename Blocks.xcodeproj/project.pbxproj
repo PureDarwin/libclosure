@@ -244,13 +244,14 @@
 			};
 			buildConfigurationList = 1DEB918108733D990010E9CD /* Build configuration list for PBXProject "Blocks" */;
 			compatibilityVersion = "Xcode 11.4";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				fr,
+				de,
+				en,
+				Base,
+				ja,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* Blocks */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
