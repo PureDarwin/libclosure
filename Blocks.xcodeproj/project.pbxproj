@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -243,7 +243,7 @@
 				};
 			};
 			buildConfigurationList = 1DEB918108733D990010E9CD /* Build configuration list for PBXProject "Blocks" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -382,7 +382,10 @@
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include;
 				"PUBLIC_HEADERS_FOLDER_PATH[sdk=driverkit*]" = "$(DRIVERKITROOT)/Runtime/usr/include";
 				SUPPORTS_TEXT_BASED_API = YES;
-				"SYSTEM_HEADER_SEARCH_PATHS[sdk=driverkit*]" = "$(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/local/include $(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/include";
+				"SYSTEM_HEADER_SEARCH_PATHS[sdk=driverkit*]" = (
+					"$(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/local/include",
+					"$(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/include",
+				);
 				TAPI_VERIFY_MODE = ErrorsAndWarnings;
 			};
 			name = Debug;
@@ -423,7 +426,10 @@
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/include;
 				"PUBLIC_HEADERS_FOLDER_PATH[sdk=driverkit*]" = "$(DRIVERKITROOT)/Runtime/usr/include";
 				SUPPORTS_TEXT_BASED_API = YES;
-				"SYSTEM_HEADER_SEARCH_PATHS[sdk=driverkit*]" = "$(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/local/include $(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/include";
+				"SYSTEM_HEADER_SEARCH_PATHS[sdk=driverkit*]" = (
+					"$(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/local/include",
+					"$(SDKROOT)/$(DRIVERKITROOT)/Runtime/usr/include",
+				);
 				TAPI_VERIFY_MODE = ErrorsAndWarnings;
 			};
 			name = Release;
